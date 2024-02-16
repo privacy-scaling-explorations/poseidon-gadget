@@ -20,7 +20,7 @@ use halo2_proofs::{
 };
 use halo2curves::pasta::{pallas, vesta, EqAffine, Fp};
 
-use halo2_gadgets::poseidon::{
+use halo2_poseidon::poseidon::{
     primitives::{self as poseidon, generate_constants, ConstantLength, Mds, Spec},
     Hash, Pow5Chip, Pow5Config,
 };

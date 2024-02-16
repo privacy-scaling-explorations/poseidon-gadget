@@ -1,5 +1,5 @@
 [package]
-name = "poseidon"
+name = "halo2_poseidon"
 version = "0.2.0"
 authors = [
     "Sean Bowe <sean@electriccoin.co>",
@@ -58,7 +58,6 @@ test-dev-graph = [
 circuit-params = ["halo2_proofs/circuit-params"]
 test-dependencies = ["proptest"]
 unstable = []
-
 
 [[bench]]
 name = "poseidon"
