@@ -2,7 +2,7 @@
 
 [Poseidon hash function](https://eprint.iacr.org/2019/458.pdf) gadget for Halo2.
 
-Requires Rust 1.56.1+.
+Requires Rust 1.72.0+.
 
 ## Documentation
 

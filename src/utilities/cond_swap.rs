@@ -56,13 +56,6 @@ pub struct CondSwapConfig {
     swap: Column<Advice>,
 }
 
-#[cfg(test)]
-impl CondSwapConfig {
-    pub(crate) fn a(&self) -> Column<Advice> {
-        self.a
-    }
-}
-
 impl<F: Field> UtilitiesInstructions<F> for CondSwapChip<F> {
     type Var = AssignedCell<F, F>;
 }

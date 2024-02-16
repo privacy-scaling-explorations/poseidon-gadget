@@ -66,6 +66,7 @@ impl Spec<Fq, 3, 2> for P128Pow5T3 {
 
 #[cfg(test)]
 mod tests {
+    #![allow(dead_code)]
     use super::{
         super::{fp, fq},
         Fp, Fq,
